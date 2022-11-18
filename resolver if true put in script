@@ -1,0 +1,7 @@
+RESOVLER = false
+
+
+
+
+   game:GetService("RunService").RenderStepped:Connect(function()
+        if Settings.rewrittenmain.RESOVLER == true and Plr.Character ~= nil and enabled and Settings.rewrittenmain.Enabled then
