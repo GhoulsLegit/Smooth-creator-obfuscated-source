@@ -1,0 +1,20 @@
+getgenv().AimingSettings = {
+    Aimbot = {
+        Radius = 45,
+        Hitbox = "Head",
+       CameraMode = true,
+        HitAirshots = false,
+        NotificationMode = false,
+        Keybind = Enum.KeyCode.Q,
+        PredictionAmount = 0.165,
+
+
+
+        Smoothing = {
+        Enabled = true,
+        Amount = 0.030
+    },
+ }
+}
+
+loadstring(game:HttpGet("))()
